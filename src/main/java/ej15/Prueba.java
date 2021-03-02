@@ -39,6 +39,11 @@ public class Prueba {
         
         for(Legislador l : lista){
             System.out.println("Es un " + l.getCamaraEnQueTrabaja());
+            if(l instanceof Diputado){
+                ((Diputado)l).getNumAsiento();
+            } else if(l instanceof Senador){
+                ((Senador)l).getSalarioExtra();
+            }
         }
     }
     

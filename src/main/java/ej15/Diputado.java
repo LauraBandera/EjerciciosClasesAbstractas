@@ -21,6 +21,14 @@ public class Diputado extends Legislador{
         super(nombre, apellidos, provinciaQueRepresenta, partidoPolitico);
         this.numAsiento = numAsiento;
     }
+
+    public int getNumAsiento() {
+        return numAsiento;
+    }
+
+    public void setNumAsiento(int numAsiento) {
+        this.numAsiento = numAsiento;
+    }
     
     
     
