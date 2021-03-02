@@ -12,11 +12,6 @@ package ej15;
 public abstract class Legislador extends Persona{
     private String provinciaQueRepresenta, partidoPolitico;
 
-    public Legislador() {
-        provinciaQueRepresenta = null;
-        partidoPolitico = null;
-    }
-
     public Legislador(String nombre, String apellidos, String provinciaQueRepresenta, String partidoPolitico) {
         super(nombre, apellidos);
         this.provinciaQueRepresenta = provinciaQueRepresenta;

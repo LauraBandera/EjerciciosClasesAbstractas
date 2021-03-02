@@ -30,11 +30,16 @@ public class Prueba {
         lista.add(l2);
         lista.add(l3);
         lista.add(l4);
-        
+        /*
         System.out.println("El Legislador l1 es " + l1.getCamaraEnQueTrabaja());
         System.out.println("El Legislador l2 es " + l2.getCamaraEnQueTrabaja());
         System.out.println("El Legislador l3 es " + l3.getCamaraEnQueTrabaja());
         System.out.println("El Legislador l4 es " + l4.getCamaraEnQueTrabaja());
+        */
+        
+        for(Legislador l : lista){
+            System.out.println("Es un " + l.getCamaraEnQueTrabaja());
+        }
     }
     
 }
