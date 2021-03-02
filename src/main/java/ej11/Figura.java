@@ -16,6 +16,11 @@ public abstract class Figura {
     
     public abstract double calcularArea();
 
+    public Figura(double base, double altura) {
+        this.base = base;
+        this.altura = altura;
+    }    
+
     public double getBase() {
         return base;
     }

@@ -11,7 +11,7 @@ package ej11;
  */
 public class Romboide extends Figura{
     public Romboide(double base, double altura) {
-        super();
+        super(base, altura);
     }    
     
     @Override

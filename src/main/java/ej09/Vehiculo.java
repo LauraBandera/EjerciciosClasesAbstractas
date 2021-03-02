@@ -17,6 +17,8 @@ public abstract class Vehiculo {
     //Se puede sobre escribir únicamente el método getVelocidad()
     private int bastidor;
     
+    //Este método posteriormente no puede ser sobreescrito por tener el final
+    //No puede sufrir modificaciones
     public final void setBastidor(int bastidor){
         this.bastidor = bastidor;
     }

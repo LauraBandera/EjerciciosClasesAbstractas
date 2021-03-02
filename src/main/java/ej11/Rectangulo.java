@@ -12,7 +12,7 @@ package ej11;
 public class Rectangulo extends Figura{
     
     public Rectangulo (double base, double altura) {
-        super();
+        super(base, altura);
     }    
     
     @Override
