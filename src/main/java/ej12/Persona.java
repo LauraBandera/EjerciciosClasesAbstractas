@@ -35,6 +35,12 @@ public class Persona {
 	public void setNIF(String nIF) {
 		NIF = nIF;
 	}
-    
+
+	public Persona(String nombre, String apellidos, String nIF) {
+		super();
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		NIF = nIF;
+	}
     
 }
