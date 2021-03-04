@@ -27,7 +27,7 @@ public class CuentaCorriente extends Cuenta{
 
     @Override
     public void actualizarSaldo(double extra) {
-        if(super.getSaldo() < saldoMin){
+        if(super.getSaldo() - extra < saldoMin){
             super.setSaldo(super.getSaldo () + super.getSaldo()*interes);
         }else{
             super.setSaldo(super.getSaldo () + saldoMin*interes);
